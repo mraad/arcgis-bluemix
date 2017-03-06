@@ -1,0 +1,22 @@
+{
+  "storage": {
+    "username": "xxx",
+    "role": "admin",
+    "projectId": "xxx",
+    "password": "xxx",
+    "domainName": "xxx",
+    "userId": "xxx",
+    "project": "xxx",
+    "domainId": "xxx",
+    "auth_url": "https://identity.open.softlayer.com",
+    "region": "xxx"
+  },
+  "spark": {
+    "tenant_secret": "xxx",
+    "plan": "xxx",
+    "tenant_id_full": "xxx",
+    "instance_id": "xxx",
+    "tenant_id": "xxx",
+    "cluster_master_url": "https://spark.bluemix.net"
+  }
+}
