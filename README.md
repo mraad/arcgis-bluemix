@@ -4,7 +4,7 @@ This is a proof of concept project to enable [ArcGIS Pro](https://pro.arcgis.com
 
 ![](media/Pro.png)
 
-The analysis is a simple square binning in [PySpark](http://spark.apache.org/docs/2.1.0/programming-guide.html), where the input is a set of 1 million [NYC Taxis trip records](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml) placed in [Bluemix Object Store](https://console.ng.bluemix.net/catalog/services/object-storage).  The result of the analysis is streamed back to Pro using the [python swiftclient](https://docs.openstack.org/developer/python-swiftclient/) library to be visualized in a map frame. You can download my sample trips from [here](https://dl.dropboxusercontent.com/u/2193160/trips-1M.csv.zip).
+The analysis is a simple square binning in [PySpark](http://spark.apache.org/docs/2.1.0/programming-guide.html), where the input is a set of 1 million [NYC Taxis trip records](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml) placed in [Bluemix Object Store](https://console.ng.bluemix.net/catalog/services/object-storage).  The result of the analysis is streamed back to Pro using the [python swiftclient](https://docs.openstack.org/developer/python-swiftclient/) library to be visualized in a map frame.
 
 ## Setup Bluemix
 
@@ -17,7 +17,7 @@ The following is a sample dashboard setup:
 
 ![](media/BluemixApp.png)
 
-Unzip the [sample trips file](https://dl.dropboxusercontent.com/u/2193160/trips-1M.csv.zip) and upload it a container in ObjectStore.
+Unzip the [sample trips file](https://dl.dropboxusercontent.com/u/2193160/trips-1M.csv.zip) and upload it to a container in ObjectStore.
 
 ![](media/Storage.png)
 
