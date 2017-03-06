@@ -17,6 +17,10 @@ The following is a sample dashboard setup:
 
 ![](media/BluemixApp.png)
 
+Unzip the [sample trips file](https://dl.dropboxusercontent.com/u/2193160/trips-1M.csv.zip) and upload it a container in ObjectStore.
+
+![](media/Storage.png)
+
 Locate the Storage service credentials and the Spark service credentials:
 
 ![](media/OSCredentials.png)
